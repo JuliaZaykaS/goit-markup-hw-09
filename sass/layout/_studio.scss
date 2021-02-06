@@ -1,0 +1,146 @@
+/* section banner */
+
+.banner {
+  padding: 200px 0px;
+  background-color: $dark-background;
+  background-image: $banner-gradient, url(../images/bg-our-office.jpg);
+  background-size: cover;
+
+  .banner-center {
+    text-align: center;
+
+    .tagline {
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: $clean-color;
+      width: 696px;
+      margin: 0 auto;
+    }
+  }
+}
+
+/* section our advantages */
+.flex-advantages {
+  width: 270px;
+
+  .advantages .desc {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin: 0px;
+  }
+
+  .advantages-about {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+.advantages-div {
+  display: flex;
+  background-color: $light-background;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+
+  .advantages-svg {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* section what we do */
+.section-whatwedo {
+  padding-bottom: 94px;
+
+  .whatwedo-list {
+    position: relative;
+
+    .whatwedo-name {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+
+      text-align: center;
+      text-transform: uppercase;
+      color: $clean-color;
+      background: $whatwedo-overlay;
+      padding-top: 27px;
+      padding-bottom: 27px;
+    }
+  }
+}
+
+/* section our team */
+.ourteam {
+  background-color: $light-background;
+
+  .heading-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 30px 0px 10px 0px;
+  }
+
+  .desc {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0px 0px 16px 0px;
+  }
+}
+
+.ourteam-back,
+.ourteam-back:visited {
+  background-color: $clean-color;
+  width: 270px;
+  box-shadow: $ourteam-shadow;
+  border-radius: 0px 0px 4px 4px;
+  cursor: pointer;
+
+  transition: filter $time-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    filter: $drop-shadow;
+  }
+}
+
+/* section our clients */
+.logo-container,
+.logo-container:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icon-gray;
+  border-radius: 4px;
+  fill: $icon-gray;
+
+  transition: fill $time-duration $timing-function,
+    border-color $time-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+}
