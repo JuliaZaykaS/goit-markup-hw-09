@@ -1,14 +1,25 @@
+.btn {
+  color: $clean-color;
+  background-color: $accent-color;
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+}
+
 // Banner button
 .order {
-  @extend %btn;
   display: inline-block;
   padding: 10px 32px;
   margin-top: 30px;
   box-shadow: $drop-shadow;
 }
+
 // footer form button
 .footer-form-button {
-  @extend %btn;
   display: flex;
   border: none;
   outline: none;
@@ -19,7 +30,6 @@
 }
 /* modal form button */
 .button-modal {
-  @extend %btn;
   display: flex;
   border: none;
   outline: none;
@@ -29,6 +39,7 @@
   margin: 0 auto;
   margin-top: 30px;
 }
+
 /* portfolio buttons  */
 .button {
   color: $main-color;
