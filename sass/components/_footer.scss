@@ -4,7 +4,7 @@
   padding: 60px 0px;
 
   .link {
-    color: $clean-color;
+    color: aquamarine;
   }
 
   .footer-flex {
@@ -17,7 +17,7 @@
   .link-push-line {
     position: relative;
     padding: 32px 0;
-  
+
     &::before {
       content: '';
       position: absolute;
