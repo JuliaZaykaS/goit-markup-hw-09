@@ -18,8 +18,11 @@ body {
 /* ширина общего контента */
 .container {
   margin-left: auto;
+
+  margin-right: auto;
   color: red;
   width: 1200px;
+
   padding-left: 15px;
   padding-right: 15px;
 }
