@@ -16,7 +16,7 @@
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+  // visibility: hidden;
 }
 
 .backdrop.is-hidden .modal {
@@ -35,7 +35,7 @@
   height: 581px;
 
   background-color: $clean-color;
-  border-radius: 4px;
+  // border-radius: 4px;
   box-shadow: $modal-shadow;
 
   .modal-close-button {

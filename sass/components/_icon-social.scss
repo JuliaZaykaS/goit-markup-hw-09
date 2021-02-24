@@ -4,7 +4,7 @@
   height: 20px;
 }
 // main icon
-.icon-ul {
+.icon-uli {
   padding: 0 32px 30px 32px;
 }
 
@@ -23,7 +23,6 @@
 
   &:hover,
   &:focus {
-    border-radius: 50%;
     background-color: $accent-color;
     fill: $clean-color;
   }
