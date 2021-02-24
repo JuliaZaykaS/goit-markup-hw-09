@@ -8,10 +8,6 @@
   }
 }
 
-.header-index {
-  border: none;
-}
-
 .nav-flex {
   display: flex;
   align-items: center;
@@ -26,22 +22,7 @@
   }
 }
 
-.contacts .link,
-.contacts .link:visited {
-  color: $second-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  margin-right: 30px;
-  display: flex;
-  align-items: center;
-  transition: color $time-duration $timing-function;
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
   .icon-contacts {
     margin-right: 10px;
   }

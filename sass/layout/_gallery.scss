@@ -25,7 +25,54 @@
   &:nth-child(3n) {
     margin-right: 0px;
   }
-
+  modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform $time-duration $timing-function;
+  
+    width: 528px;
+    height: 581px;
+  
+    background-color: $clean-color;
+    border-radius: 4px;
+    box-shadow: $modal-shadow;
+  
+    .modal-close-button {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+  
+      border: none;
+      background-color: transparent;
+      box-shadow: none;
+      padding: 0;
+      outline: none;
+    }
+  }
+  
+  /* Modal form */
+  .block {
+    display: block;
+    width: 100%;
+  }
+  
+  .modal-form {
+    padding: 40px;
+  
+    .modal-header-text {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 1.15;
+      text-align: center;
+      letter-spacing: 0.03em;
+      margin: 0px;
+      margin-bottom: 12px;
+    }
+  
+    .label-modal {
   .bordering {
     border-bottom: 1px solid $border-gallery;
     border-right: 1px solid $border-gallery;
