@@ -277,7 +277,7 @@ body {
   text-decoration: none;
 }
 
-/* заголовки */
+/* заголовки и стили текста */
 .heading {
   font-weight: bold;
   font-size: 36px;
@@ -287,9 +287,62 @@ body {
   margin: 0px 0px 50px 0px;
 }
 
-/* section gallery */
-.gallery {
-  padding-bottom: 64px;
+.tagline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 696px;
+  margin: 0 auto;
+}
+
+.whatwedo-name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.advantages .desc {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin: 0px;
+}
+
+.advantages-about {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+}
+
+.heading-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 30px 0px 10px 0px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0px 0px 16px 0px;
 }
 
 .gallery .heading-gallery {
@@ -308,6 +361,11 @@ body {
   padding: 0px 24px;
   padding-bottom: 20px;
   margin: 0px;
+}
+
+/* section gallery */
+.gallery {
+  padding-bottom: 64px;
 }
 
 .gallery .flex-gallery {
@@ -394,37 +452,9 @@ body {
   text-align: center;
 }
 
-.banner .banner-center .tagline {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  width: 696px;
-  margin: 0 auto;
-}
-
 /* section our advantages */
 .flex-advantages {
   width: 270px;
-}
-
-.flex-advantages .advantages .desc {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  margin: 0px;
-}
-
-.flex-advantages .advantages-about {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0px 0px 10px 0px;
 }
 
 .advantages-div {
@@ -456,42 +486,15 @@ body {
   position: relative;
 }
 
-.section-whatwedo .whatwedo-list .whatwedo-name {
+.section-whatwedo .whatwedo-list .whatwedo-name-position {
   position: absolute;
   bottom: 0;
   width: 100%;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
-  padding-top: 27px;
-  padding-bottom: 27px;
 }
 
 /* section our team */
 .ourteam {
   background-color: #f5f4fa;
-}
-
-.ourteam .heading-team {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin: 30px 0px 10px 0px;
-}
-
-.ourteam .desc {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin: 0px 0px 16px 0px;
 }
 
 .ourteam-back,
