@@ -17,7 +17,21 @@
   margin-top: 30px;
   box-shadow: $drop-shadow;
 }
-
+.footer-input {
+  border: 1px solid $footer-border-input;
+  border-radius: 4px;
+  height: 50px;
+  width: 358px;
+  margin-right: 12px;
+  outline: none;
+  background-color: transparent;
+  padding: 15px 16px;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: $footer-link;
+}
 // footer form button
 .footer-form-button {
   display: flex;
